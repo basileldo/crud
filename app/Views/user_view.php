@@ -12,7 +12,7 @@
   <div class="container">
 
   </center>
-    <h3>User CRUD</h3>
+    <h3>Users</h3>
     <br />
     <button class="btn btn-success" onclick="add_user()"><i class="glyphicon glyphicon-plus"></i> Add User</button>
     <br />

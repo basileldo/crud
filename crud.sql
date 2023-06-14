@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 14, 2023 at 09:35 PM
+-- Generation Time: Jun 14, 2023 at 10:22 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 7.4.30
 
@@ -45,7 +45,17 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`user_id`, `firstname`, `lastname`, `email`, `mobile`, `username`, `password`) VALUES
 (1, 'Alex', 'John', 'alexjohn@gmail.com', '7777777777', 'alexjohn', 'Alexjohn@1234'),
-(2, 'Tom', 'Philip1', 'tomphilip@gmail.com', '07733989214', 'tomphilip', 'Tomphilip@1234');
+(2, 'Tom', 'Philip1', 'tomphilip@gmail.com', '07733989214', 'tomphilip', 'Tomphilip@1234'),
+(24, 'Hadin', 'Clark', 'hadintest@gmail.com', '7777777777', 'hadin', 'Hadin123'),
+(25, 'Derin', 'Disusa', 'derintest@gmail.com', '7777777777', 'derin@gmail.com', 'Derin123'),
+(26, 'Camelia', 'John', 'camelia@gmail.com', '7777777777', 'camelia', 'camelia123'),
+(27, 'Madona', 'Toms', 'madona@gmail.com', '7777777777', 'madona', 'Madona123'),
+(28, 'Sam', 'Philip', 'sam@gmail.com', '7777777777', 'sam', 'Sam12233'),
+(29, 'Anna', 'mariam', 'anna@gmail.com', '7777777777', 'anna', 'Anna1213'),
+(30, 'Sonia', 'Pelon', 'sonia@gmail.com', '7777777777', 'sonia', 'sonia12345'),
+(31, 'Andy', 'Price', 'andy@gmail.com', '7777777777', 'andy', 'Andy32342'),
+(32, 'Chris', 'John', 'chris@gmail.com', '7777777777', 'chris', 'XChis1454rq'),
+(33, 'Kelly', 'John', 'kelly@gmail.com', '7777777777', 'kelly', 'kelluyt56546rt');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +75,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `user_id` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 --
 -- Database: `phpmyadmin`
 --
@@ -322,7 +332,7 @@ CREATE TABLE `pma__userconfig` (
 --
 
 INSERT INTO `pma__userconfig` (`username`, `timevalue`, `config_data`) VALUES
-('root', '2023-06-14 19:11:33', '{\"Console\\/Mode\":\"collapse\"}');
+('root', '2023-06-14 20:22:06', '{\"Console\\/Mode\":\"collapse\"}');
 
 -- --------------------------------------------------------
 

@@ -197,37 +197,37 @@
             <div class="form-group">
               <label class="control-label col-md-3">First Name</label>
               <div class="col-md-9">
-                <input name="firstname" placeholder="First Name" class="form-control" type="text">
+                <input name="firstname" placeholder="First Name" class="form-control" type="text" required>
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-md-3">Last Name</label>
               <div class="col-md-9">
-                <input name="lastname" placeholder="Last Name" class="form-control" type="text">
+                <input name="lastname" placeholder="Last Name" class="form-control" type="text" required>
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-md-3">Email</label>
               <div class="col-md-9">
-								<input name="email" placeholder="Email" class="form-control" type="text">
+								<input name="email" placeholder="Email" class="form-control" type="email" required>
               </div>
             </div>
 						<div class="form-group">
 							<label class="control-label col-md-3">Mobile</label>
 							<div class="col-md-9">
-								<input name="mobile" placeholder="Mobile" class="form-control" type="text">
+								<input name="mobile" placeholder="Mobile" class="form-control" type="number" required>
 							</div>
 						</div>
             <div class="form-group">
 							<label class="control-label col-md-3">Username</label>
 							<div class="col-md-9">
-								<input name="username" placeholder="Username" class="form-control" type="text">
+								<input name="username" placeholder="Username" class="form-control" type="text" required>
 							</div>
 						</div>
             <div class="form-group">
 							<label class="control-label col-md-3">Password</label>
 							<div class="col-md-9">
-								<input name="password" placeholder="Password" class="form-control" type="text">
+								<input name="password" placeholder="Password" class="form-control" type="password" required>
 							</div>
 						</div>
           </div>

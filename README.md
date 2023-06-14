@@ -1,3 +1,21 @@
+# CRUD APPLICATION USING CodeIgniter 4 Bootstrap, DataTables, jQuery and MySQL
+
+ ## Model
+ 
+   - User_model.php
+
+## Controller
+
+  - User.php
+
+## View
+
+  - user_view.php
+
+## Database
+
+ - crud.sql - Located in root folder
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?

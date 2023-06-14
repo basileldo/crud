@@ -12,7 +12,9 @@
 
   - user_view.php
 
-## Please find database file from the root named as crud.sql
+## Database
+
+ - crud.sql - Located in root folder
 
 # CodeIgniter 4 Framework
 

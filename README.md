@@ -16,6 +16,8 @@
 
  - crud.sql - Located in root folder
 
+** Please note that Password hashing and user validations not included in this project.
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
